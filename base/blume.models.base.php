@@ -1,0 +1,1 @@
+<!-- The Modal --><div class="modal" id="importingModal">    <div class="modal-dialog">        <div class="modal-content">            <!-- Modal body -->            <div class="modal-body text-center">                <h2><i class="fa fa-spinner fa-spin"></i><br>Importing</h2>            </div>        </div>    </div></div>

@@ -1,0 +1,2 @@
+<?php
+//Get all courses

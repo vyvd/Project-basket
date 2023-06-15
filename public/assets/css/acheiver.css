@@ -1,0 +1,274 @@
+.acheiver-board{
+    border-radius: 15px;
+    background: #259cc0;
+    color: #ffffff;
+    position: relative;
+    padding: 25px 0;
+    margin: 30px 0;
+}
+
+.acheiver-board::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 187px;
+    height: 100%;
+    background: url(../images/achievers-left.png) no-repeat;
+    background-size: contain;
+}
+
+.acheiver-board::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 177px;
+    height: 100%;
+    background: url(../images/achievers-right.png) no-repeat;
+    background-size: contain;
+    background-position: 70px -30px;
+}
+
+.acheiver-board p {
+    max-width: 700px;
+    display: inline-table;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+.acheiver-box{
+    margin-bottom: 30px;
+}
+
+.acheiver-box img{
+    border-radius: 25px;
+    position: relative;
+}
+
+.acheiver-box p{
+    margin-top: 10px;
+}
+
+i.reaction {
+    position: absolute;
+    top: 7px;
+    right: 21px;
+    width: 47px;
+    height: 47px;
+}
+
+.upload-img {
+    border-radius: 25px;
+    background: #259cc0;
+    color: #ffffff;
+    position: relative;
+    padding: 15px 12px;
+    height: 235px;
+}
+
+.upload-img::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background: url(../images/uploadimg-bg.png) no-repeat;
+    background-position: 0 -50px;
+}
+
+.upload-img h1 {
+    line-height: 37px;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.upload-img p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.clapping{
+    background: url(../images/clapping-icon.png);
+}
+
+.smiling{
+    background: url(../images/smiling-icon.png);
+}
+
+.starstruck{
+    background: url(../images/starstruck-icon.png);
+}
+
+.usercap{
+    background: url(../images/usercap-icon.png);
+}
+
+.cap{
+    background: url(../images/cap-icon.png);
+}
+
+.graduate{
+    background: url(../images/graduate-icon.png);
+}
+
+.thumb{
+    background: url(../images/thumb-icon.png);
+}
+
+.partying{
+    background: url(../images/partying-icon.png);
+}
+
+.acheiver-board-submit{
+    border-radius: 15px;
+    background: #259cc0;
+    color: #ffffff;
+    position: relative;
+    padding: 25px 10% 50px 10%;
+    margin: 30px 0;
+}
+
+.acheiver-board-submit::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 35px;
+    width: 89px;
+    height: 89px;
+    background: url(../images/trophy.png) no-repeat;
+    background-size: contain;
+}
+
+.acheiver-board-submit::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 105px;
+    height: 100%;
+    background: url(../images/popular2.png) no-repeat;
+    background-size: contain;
+}
+
+.acheiver-board-submit form{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.acheiver-board-submit .form-control {
+    height: calc(2.25rem + 15px);
+    padding: .375rem 1.3rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
+
+.acheiver-board-submit .form-control::-webkit-input-placeholder { /* Edge */
+    color: #ffffff;
+  }
+  
+  .acheiver-board-submit .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffffff;
+  }
+  
+  .acheiver-board-submit .form-control::placeholder {
+    color: #ffffff;
+  }
+
+  .acheiver-board-submit .custom-file-input, .acheiver-board-submit .custom-file-label, .acheiver-board-submit .custom-file-label::after{
+    height: calc(2.25rem + 15px);
+  }
+
+  .acheiver-board-submit .custom-file-input, .acheiver-board-submit .custom-file-label {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    color: #ffffff;
+    padding-left: 1.3rem;
+    border-right: 0;
+    cursor: pointer;
+}
+
+.acheiver-board-submit .custom-file-label, .acheiver-board-submit .custom-file-label::after {
+    line-height: 2.5;
+}
+
+.acheiver-board-submit .custom-file-label::after {
+    content: "\f093" !important;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Pro";
+    background-color: #ffffff;
+    border-left: 0px solid #ffffff;
+    color: #259cc0;
+    top: -1px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.terms .custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    text-indent: 1.3rem;
+    background: #ffffff;
+    color: #259cc0;
+    padding: 2px 10px 3px 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.terms .custom-control-label::before , .custom-control-label::after{
+    left: 5px;
+}
+
+.terms.custom-checkbox .custom-control-label::before {
+    border-radius: .25rem;
+    border-radius: 15px;
+    background-color: #259cc0;
+}
+
+.terms span{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.acheiver-board-submit .submit-btn .btn{
+    background-color: #ffffff;
+    color: #259cc0;
+    width: 95%;
+    max-width: 400px;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: .675rem .75rem;
+    margin-top: 20px;
+}
+
+.acheiver-board-submit .submit-btn .btn:hover{
+    background-color: #e3e3e3;
+}
+@media(max-width:700px) {
+    .acheiver-board::after, .acheiver-board::before {
+        display:none;
+    }
+    .acheiver-item, .acheiver-box img {
+        width: 92% !important;
+        left: 2% !important;
+    }
+    .upload-img h1 {
+        font-size:24px;
+    }
+    .upload-img {
+        text-align:center;
+        left:2%;
+        height:auto;
+    }
+    .upload-img p br {
+        display:none;
+    }
+}

@@ -1,0 +1,56 @@
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function balance() in /home/newskill/public_html/affiliates/assets/comp/top-nav.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/top-nav.php on line 23
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function rc_on() in /home/newskill/public_html/affiliates/assets/comp/side-nav.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/side-nav.php on line 118
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_affiliates() in /home/newskill/public_html/affiliates/assets/comp/stat-boxes.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/stat-boxes.php on line 9
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_mt_transactions() in /home/newskill/public_html/affiliates/assets/comp/mt-stat-boxes.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/mt-stat-boxes.php on line 9
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function contact_list() in /home/newskill/public_html/affiliates/assets/comp/top-affiliates.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/top-affiliates.php on line 9
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_mt_transactions_i() in /home/newskill/public_html/affiliates/assets/comp/mt-stat-boxes-i.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/mt-stat-boxes-i.php on line 9
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_leads() in /home/newskill/public_html/affiliates/assets/comp/leads-stat-boxes.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/leads-stat-boxes.php on line 9
+[08-Jan-2019 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cpc_on() in /home/newskill/public_html/affiliates/assets/comp/my-stat-boxes.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/my-stat-boxes.php on line 1
+[08-Jan-2019 17:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_pending_period() in /home/newskill/public_html/affiliates/assets/comp/payout-stat-boxes.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/payout-stat-boxes.php on line 9
+[08-Jan-2019 17:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_leads_i() in /home/newskill/public_html/affiliates/assets/comp/leads-stat-boxes-i.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/leads-stat-boxes-i.php on line 9
+[08-Jan-2019 17:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cpc_on() in /home/newskill/public_html/affiliates/assets/comp/referral-stat-boxes.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/referral-stat-boxes.php on line 1
+[08-Jan-2019 17:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_recurring() in /home/newskill/public_html/affiliates/assets/comp/recurring-stat-boxes.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/recurring-stat-boxes.php on line 9
+[08-Jan-2019 17:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cpc_on() in /home/newskill/public_html/affiliates/assets/comp/referral-stat-boxes-i.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/referral-stat-boxes-i.php on line 1
+[08-Jan-2019 17:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function total_recurring_i() in /home/newskill/public_html/affiliates/assets/comp/recurring-stat-boxes-i.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/newskill/public_html/affiliates/assets/comp/recurring-stat-boxes-i.php on line 9

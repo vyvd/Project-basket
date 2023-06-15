@@ -1,0 +1,127 @@
+.stickySpace {
+    display: none !important;
+}
+
+
+.top-header.sticky, .show-mobile{
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .courses_devices_bg video {
+        width: 518px;
+        height: 263px;
+        padding: 20px;
+    }
+
+    .show-desktop .student-counting h5 {
+        min-height: 340px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 800px) {
+    .courseDevicesStats {
+        height: 100px;
+        width: 100px;
+        font-size: 27px;
+        line-height: 28px;
+        padding-top: 22px;
+    }
+
+    .courses_devices_bg {
+        background-image: url('/assets/images/course-devices-img.png');
+        padding-bottom: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .courses_devices_bg video {
+        width: 350px;
+        height: 189px;
+        padding-top: 13px;
+    }
+
+    .courseDevicesStats span {
+        font-size: 16px;
+    }
+
+    .show-desktop .student-counting h5 {
+        min-height: 530px;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .top-header {
+        background: #258cab !important;
+    }
+    .homeHeader .navbar-toggler{
+        display: none;
+    }
+    video.mobile_video {
+        width: 100%;
+        /*background: none;*/
+        /*padding-bottom: 30px;*/
+    }
+    .show-mobile {
+        display: block;
+    }
+    .cta {
+        background: #1c7f9d;
+    }
+    .student-counting h5 {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+    .blue_down, .white_down {
+        display:none;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 50px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #accordionFaqs .btn-link {
+        font-size:15px;
+    }
+    .ctaSticky_membership {
+        font-size:19px;
+    }
+    .navbar-brand {
+        margin:0 auto;
+    }
+    #navBar.show {
+        display:block !important;
+    }
+    .subscription2 .subscription-banner{
+        background-size: cover;
+        height: -webkit-fill-available;
+    }
+}
+@media (max-width: 380px) {
+    .show-mobile .courses_bg .mobile_video {
+        width: 356px;
+        height: 244px;
+        padding-right: 32px;
+        margin-top: -10px;
+    }
+    .courses_bg {
+        padding-bottom: 40px;
+    }
+    .courseDevicesStats {
+        height: 100px;
+        width: 100px;
+        font-size: 28px;
+        line-height: 18px;
+        padding-top: 32px;
+        margin: 30px;
+    }
+
+    .courseDevicesStats span {
+        font-size: 15px;
+    }
+}

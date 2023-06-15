@@ -1,0 +1,194 @@
+html, body {
+    background: #fff;
+    padding: 0px;
+    margin: 0px 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    color: #587279;
+}
+.alignright {
+    float: right;
+    margin: 0 0 1em 20px;
+}
+ h2 {
+    font-size: 26px;
+    color: #08586c;
+    margin: 20px 0px;
+    padding:0;
+    background:none;
+}
+p {
+
+}
+.summary {
+    background: #17a9ce;
+    padding: 30px;
+    color: #fff;
+    margin: 0px;
+    margin-top: 0px;
+}
+.summary h3 {
+    color: #08586c;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.did-you-know {
+    background: #c7ffd8;
+    padding: 14px 17px;
+    margin-top: 18px;
+    position:relative;
+    padding-left:73px;
+}
+.did-you-know:before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 500;
+    content: "\f0eb";
+    font-size: 48px;
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 67px;
+    color: #658770;
+}
+.fact {
+    text-align: center;
+    background: #ffffff;
+    border: 5px solid #c15e93;
+    border-radius: 18px;
+}
+.fact h3 {
+    font-weight: 900;
+    color: #c15e93;
+}
+.paper {
+    padding: 7px 49px 18px;
+    position: relative;
+    border: 1px solid #B5B5B5;
+    background: white;
+    background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+    -webkit-background-size: 100% 30px;
+    -moz-background-size: 100% 30px;
+    -ms-background-size: 100% 30px;
+    background-size: 100% 30px;
+}
+.paper::before {content:""; z-index:-1; margin:0 1px; width:706px; height:10px; position:absolute; bottom:-3px; left:0; background:white; border:1px solid #B5B5B5;}
+.paper::after {content:''; position:absolute; width:0px; top:0; left:39px; bottom:0; border-left:1px solid #F8D3D3;}
+.paper h4 {
+    font-weight: bold;
+}
+.video-bg {
+    background: #ebeef1;
+    margin: -30px;
+    padding: 0px 30px;
+    margin-top: 0px;
+}
+.video-bg img {
+    margin-bottom:20px;
+    margin-top:10px;
+}
+.video-bg h4 {
+    font-weight:bold;
+}
+.work {
+    margin-bottom:30px;
+}
+.diff {
+    background: #f3f3f3;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    margin-top: 30px;
+    padding:25px;
+}
+.work {
+    background: #fff;
+    margin: 40px 0;
+    padding: 30px 30px;
+    border: 3px dashed #248cab;
+}
+.down-butt {
+    margin: 20px 0;
+}
+.down-butt a {
+    color: #fff;
+    background-color: #b2d489;
+    border-color: #b2d489;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 33px 53px;
+    right: 20px;
+    cursor: pointer;
+}
+.dotted-highlight {
+    border: 2px dashed #e4e4e4;
+    margin: 40px 0;
+    padding: 0 20px;
+    border-bottom: 5px solid #e4e4e4;
+    padding-top: 12px;
+}
+h2 {
+    font-size: 44px;
+    color: #333;
+    padding: 20px 0;
+    background: none;
+    border-bottom: 2px dashed;
+    margin: 0 0 30px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+.fact {
+    text-align: center;
+    background: #ffffff;
+    border: 3px solid #248cab;
+    border-radius: 8px;
+    margin: 40px 0;
+    padding: 0 30px 20px 0;
+    border-top: 10px solid #248cab;
+}
+.fact h3 {
+    color: #FFF !important;
+    background-color: #248cab;
+    width: 15%;
+    border: none;
+    margin-top: -25px;
+    text-align: center;
+    margin: -30px auto 20px;
+    padding: 10px 0px;
+    font-size: 16px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #fff;
+}
+.fact img {
+    height: 100px;
+    width: auto;
+}
+/* .warning {
+    background-color: #FFE1E1;
+    border-top: 1px solid #FFCECE;
+    border-left: 1px solid #FFCECE;
+    border-right: 1px solid #FFCECE;
+    border-bottom: 5px solid #FFCECE;
+    background-image: url(/wp-content/themes/academy/images/warning.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    min-height: 80px;
+    margin: 40px 0;
+    padding: 15px 15px 15px 90px;
+} */
+.moduleContents .warning:before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 500;
+    content: "\f071";
+    font-size: 48px;
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 67px;
+    color: #b21010;
+}

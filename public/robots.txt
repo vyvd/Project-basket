@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://newskillsacademy.co.uk/sitemap/courses
+Sitemap: https://newskillsacademy.co.uk/sitemap/categories
+Sitemap: https://newskillsacademy.co.uk/sitemap/blog
+Sitemap: https://newskillsacademy.co.uk/sitemap/pages
+Sitemap: https://newskillsacademy.co.uk/sitemap/help-articles

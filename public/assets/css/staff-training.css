@@ -1,0 +1,302 @@
+.staff-texts{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding:20px 20px;
+}
+
+.staff-form{
+    background-color: #18aace;
+    border-radius: 25px;
+    padding:20px 20px
+}
+
+.staff-training{
+    padding-bottom: 20px;
+}
+
+.staff-training .heading-underlined {
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.staff-training p{
+    margin-bottom: 10px;
+}
+
+.staff-form h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.staff-form .form-control {
+    height: auto;
+    padding: 17px 21px;
+    color: #1a1a1a;
+    border: 0;
+    border-radius: 28px;
+}
+
+.staff-form textarea.form-control {
+    height: auto;
+    padding-top: 20px;
+}
+
+.form-control::-webkit-input-placeholder { /* Edge */
+    color: #1A1A1A;
+  }
+  
+  .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1A1A1A;
+  }
+  
+  .form-control::placeholder {
+    color: #1A1A1A;
+  }
+
+  .staff-form .btn-white , .staff-form .btn-primary{
+      width: 250px;
+      max-width: 85%;
+      font-weight: 500;
+      margin-top: 15px;
+  }  
+
+  .staff-form .btn-white{
+    background-color: #ffffff;
+} 
+
+  .staff-form .btn-white:hover{
+    background-color: #b2d489;
+    color: #ffffff;
+} 
+
+/*-- Contact Page Css */
+
+.staff-form.contact {
+    background-color: #ffffff;
+}
+
+.staff-form.contact h4 {
+    color: #1A1A1A;
+}
+
+.staff-form.contact .form-control {
+    background: #f4f4f4;
+}
+
+.contact-details{
+    padding: 0;
+}
+
+.contact-boxes{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding:20px 20px;
+    margin-bottom: 20px;
+}
+
+.contact-grey-panel{
+    background-color: #f4f4f4;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    width: 100%;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.contact-grey-panel i{
+    margin-right: 10px;
+}
+.contact-grey-panel a {
+    color:#1a1a1a;
+}
+.contact-grey-panel a:hover {
+    text-decoration: none;
+    color: #248cab;
+}
+.contact-social a {
+    margin-left: 10px;
+    padding: 8px 0;
+    width: 46px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 25px;
+    background: #1A1A1A;
+    font-size: 20px;
+    display: inline-table;
+}
+
+ .contact-social  a i{
+    margin-right: 0;
+     position: relative;
+     top: 2px;
+}
+
+.contact-social a:hover {
+    color: #ffffff;
+    background: #259cc0;
+}
+
+.contact-boxes h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1A1A1A;
+}
+
+/*-- ABOUT US CSS */
+
+.bordered-elements{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: #1A1A1A;
+    border:2px solid #259cc0;
+    width: 86%;
+    margin-left: 7%;
+}
+
+.bordered-elements p {
+    float: left;
+    margin-bottom: 0;
+    line-height: 37px;
+    font-weight: 500;
+}
+
+.bordered-elements h2 {
+    float: right;
+    margin-bottom: 0;
+    width: 110px;
+    text-align: center;
+}
+
+.about-boxes{
+    margin-bottom: 20px;
+}
+
+.awards{
+    margin-bottom: 35px;
+}
+
+.personal span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.personal .col-lg-2 , .personal .col-lg {
+    margin-bottom: 40px;
+}
+
+.buster{
+    background: #f4f4f4;
+    padding: 20px 10px;
+    border-radius: 100px;
+    margin: 40px 0;
+}
+
+.about-contact img{
+    margin-bottom: 15px;
+}
+
+.about-contact .social-icons a{
+    float: none;
+    display: inline-table;
+    color: white;
+    background: #248cab;
+}
+
+.about-contact .social-icons a:hover{
+    color: white;
+    background: #b2d489;
+}
+
+.contact-details.affiliate .nav-tabs {
+    border-bottom: 0;
+}
+
+.contact-details.affiliate .nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+
+.contact-details.affiliate .nav-tabs .nav-link {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: .5rem 30px;
+    color: #1a1a1a;
+    border: 0px solid transparent;
+}
+
+.contact-details.affiliate  .nav-tabs .nav-link.active {
+    border: 0;
+}
+
+.contact-details.affiliate .contact-boxes, .col-lg-6.staff-form.contact.affiliate {
+    border-top-left-radius: 0;
+}
+
+.contact-details.affiliate .nav-tabs .nav-link:hover {
+    border: 0;
+}
+
+.title-tab {
+    background: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: .5rem 30px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.col-lg-6.staff-form.contact.affiliate{
+    margin-top: 40px;
+}
+
+.col-lg-6.contact-details.affiliate .tab-pane h2{
+    margin-bottom: 20px;
+}
+
+.white-box.with-side-img{
+    padding:0;
+    display: flex;
+    align-items: center;
+}
+
+.with-side-img .support-cnt, .with-side-img > img {
+    display: inline-table;
+    padding-right: 20px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.white-box img{
+    margin:25px 0;
+}
+
+.white-box h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.support-row{
+    margin-bottom: 25px;
+}
+
+.support-row a{
+    float: right;
+}
+@media(max-width:600px) {
+    .with-side-img .support-cnt, .with-side-img > img {
+        padding-right:0;
+    }
+    .white-box img {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}

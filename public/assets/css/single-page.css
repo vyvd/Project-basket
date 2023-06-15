@@ -1,0 +1,27 @@
+.staticPage {
+    max-width:100%;
+}
+.all-course-btn .btn {
+    border: 3px solid #248cab;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 7px 40px;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #248cab;
+    border-color: #248cab;
+}
+.course-title .section-title {
+    margin-bottom:0;
+}
+.course-title {
+    background: #269cc0;
+    color: #ffff;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+.all-course-btn {
+    text-align:center;
+    margin-top:25px;
+}

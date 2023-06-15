@@ -1,0 +1,34 @@
+{
+  "require": {
+    "php": ">=7.0",
+    "vlucas/phpdotenv": "^4.1",
+    "stripe/stripe-php": "^7.37",
+    "paypal/paypal-checkout-sdk": "1.0.1",
+    "j4mie/idiorm": "^1.5",
+    "mailgun/mailgun-php": "^3.0",
+    "kriswallsmith/buzz": "^1.1",
+    "nyholm/psr7": "^1.3",
+    "dompdf/dompdf": "^1.0",
+    "ext-curl": "*",
+    "mpdf/mpdf": "^8.0",
+    "ext-mbstring": "*",
+    "servo/fluidxml": "^1.21",
+    "paypal/rest-api-sdk-php": "^1.14",
+    "nesbot/carbon": "^2.46",
+    "aws/aws-sdk-php": "^3.180",
+    "ext-json": "*",
+    "facebook/graph-sdk": "^5.7",
+    "thewirecutter/paapi5-php-sdk": "^1.0",
+    "socialconnect/auth": "^3.3",
+    "socialconnect/http-client": "^1.0",
+    "facebook/php-business-sdk": "^12.0",
+    "league/oauth2-google": "^4.0",
+    "google/apiclient": "^2.12.1"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "name": "vendor_name/new-skills-academy",
+  "description": ""
+}

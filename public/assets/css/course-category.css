@@ -1,0 +1,351 @@
+.course-filters{
+    padding:20px 0 0 0;
+}
+
+.course-filters .mb-3 .form-control {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: #1A1A1A;
+    font-weight: 600;
+    height: 50px;
+    padding-left:25px;
+}
+
+.course-filters .mb-3 .form-control::-webkit-input-placeholder { /* Edge */
+    color: #1A1A1A;
+  }
+  
+  .course-filters .mb-3 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1A1A1A;
+  }
+  
+  .course-filters .mb-3 .form-control::placeholder {
+    color: #1A1A1A;
+  }
+
+.course-filters .mb-3 .btn {
+    background-color: #f4f4f4;
+    color: #1A1A1A;
+    font-size: 25px;
+    text-align: center;
+    border: #f4f4f4;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 60px;
+    padding-left: 6px;
+    padding-top: 7px;
+}  
+
+.course-filters select {
+    color: #1A1A1A;
+    border-radius: 25px;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ffffff url(../images/down-arrow-dark.png) no-repeat;
+    background-position: 90% center;
+    padding-left: 20px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.left-filters.col-lg-3 {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px 5px;
+  -ms-flex: 0 0 94%;
+  flex: 0 0 94%;
+  max-width: 94%;
+  margin-left: 3%;
+  margin-bottom: 20px;
+}
+
+.left-filters.col-lg-3.blog-right {
+  background: transparent;
+  padding: 0px 15px;
+}
+
+.left-filters.col-lg-3.blog-right .white-box {
+  margin-bottom: 20px;
+}
+
+.left-filters .card-header {
+  background-color: transparent;
+  border-bottom: 0;
+  padding: .75rem 0rem;
+}
+
+.left-filters .card {
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  border-radius: 0;
+  padding: 0 20px;
+}
+
+.left-filters .card-body {
+  padding: 15px 0;
+}
+
+.filter-title{
+  width: 100%;
+  display: inline-block;
+  background: url('../images/toggle.png') no-repeat;
+  background-position: right center;
+  cursor: pointer;
+}
+
+.left-filters .custom-checkbox .custom-control-label::before {
+  border-radius: 0;
+  top: .18rem;
+  background-color: #e6e6e6;
+}
+.left-filters .custom-label{
+  font-weight: 400;
+  cursor: pointer;
+}
+.left-filters .custom-control a{
+  color: #0a0a0a;
+}
+
+.left-filters .custom-control-label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.left-filters .custom-control {
+  margin-bottom: 2px;
+}
+
+.left-filters .card:last-child{
+  border-bottom: 0;
+}
+
+.popularCourseboxes .category-box {
+  margin-bottom: 25px;
+}
+
+/*--Help Articles css ----*/
+
+.queries{
+  width: 100%;
+  display: inline-table;
+  margin-bottom: 10px;
+  padding:16px 25px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  position: relative;
+}
+
+.queries a{
+  color: #1A1A1A;
+}
+
+.queries a:hover{
+  color: #259cc0;
+  text-decoration: none;
+}
+
+.queries .fa-file-alt{
+  margin-right: 20px;
+}
+
+.queries .fa-arrow-right{
+  position: absolute;
+  right: 25px;
+}
+
+.help-modules{
+  margin-top: 20px;
+}
+
+.help-modules .paging{
+  margin-top: 20px;
+}
+
+.help-faq{
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.help-faq .faq-title {
+  padding-right: 30px;
+}
+
+.help-faq h3 {
+  margin-bottom: 20px;
+}
+
+.blog-banner{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.blog-banner img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.blog-banner-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.blog-banner-text.overlay{
+  background: rgb(0 0 0 / 40%);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.blog-banner-text h1{
+  color: #ffffff;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.blog-texts{
+  display: inline-table;
+  width: 100%;
+  padding:25px 25px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.underlined span {
+  border-bottom: 1px solid;
+  display: inline-table;
+  line-height: 1;
+}
+
+.blog-texts h4{
+  margin-bottom: 1rem;
+}
+
+.related-articles{
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.related-articles img{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.related-articles a{
+  margin: 0 10px;
+  color: #1A1A1A;
+  line-height: 1.2rem;
+}
+
+.related-articles a:hover , .resources-link a:hover{
+  text-decoration: none;
+  color: #259cc0;
+}
+
+.category-box.resourse-box img{
+  height: auto !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.resources-link{
+  display: inline-table;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 25px 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.resources-link a{
+  color: #1A1A1A;
+  line-height: 1.2rem;
+}
+
+.review-course-sidebar .white-box{
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+
+.review-course-sidebar .white-box img{
+  margin: 5px 0;
+}
+
+.review-course-sidebar .sideboxes {
+  border-radius: 15px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+
+.printed{
+  background: #ffffff url(../images/printed-certificate.png) no-repeat;
+  background-position: 10px 10px;
+  background-size: contain;
+}
+
+.printed h4{
+  font-size: 20px;
+  font-weight: 700;
+  padding:10px 25px 40px 25px;
+}
+
+.printed .btn{
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+
+.results-box{
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px #c8c8c8;
+  margin-bottom: 20px;
+  cursor:pointer;
+}
+.results-box:hover p {
+  color: #1680a0;
+}
+
+.results-box p{
+  margin-left: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.results-box img {
+  width:100px;
+}
+.addReadMore.showlesscontent .SecSec,
+.addReadMore.showlesscontent .readLess {
+  display: none;
+}
+
+.addReadMore.showmorecontent .readMore {
+  display: none;
+}
+
+.addReadMore .readMore,
+.addReadMore .readLess {
+  font-weight: bold;
+  margin-left: 2px;
+  color: #259cc0;
+  cursor: pointer;
+}
+
+.addReadMoreWrapTxt.showmorecontent .SecSec,
+.addReadMoreWrapTxt.showmorecontent .readLess {
+  display: block;
+}

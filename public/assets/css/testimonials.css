@@ -1,0 +1,118 @@
+.text-review-box > div{
+    background: #f9f9f9;
+    padding: 20px 0px 0 0;
+    border-radius: 15px;
+    margin: 20px 0 20px 0;
+}
+
+.text-review-box p {
+    padding: 0px 25px;
+}
+
+.text-review-box .review-user-details {
+    width: 100%;
+    display: inline-table;
+    background-color: #259cc0;
+    color: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px 25px;
+}
+
+.text-review-box .review-user-details div {
+    display: inline-table;
+    position: relative;
+    top: -8px;
+}
+
+.text-review-box .review-user-details div h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.text-review-box .review-user-details div span {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.video-box{
+    padding: 0px 20px 0 0;
+    margin: 20px 0 20px 0;
+}
+
+.video-box .video{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.video-box .person{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.validateStudent-boxes {
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #1a1a1a;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.validateStudent-boxes .status {
+    display: flex;
+    width: 100%;
+    padding: 8px 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.validateStudent-boxes .status.valid {
+    background-color: #b2d489;
+}
+
+.validateStudent-boxes .status span {
+    background-color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    border: #ffffff;
+    border-radius: 30px;
+    width: 44px;
+    padding-left: 3px;
+    padding-top: 6px;
+    display: inline-block;
+    padding-bottom: 1px;
+    margin-right: 10px;
+}
+
+.validateStudent-boxes .status.valid span {
+    color: #b2d489;
+}
+
+.validateStudent-boxes p {
+    font-weight: 500 !important;
+    padding-left: 5px;
+}
+
+.validateStudent-boxes .status.invalid {
+    background-color: #ffcf6e;
+}
+
+.validateStudent-boxes .status.invalid span {
+    color: #ffcf6e;
+}
+
+.multiAwardsSlider .carousel-item{
+    min-height: 120px;
+}
+
+.multiAwardsSlider .carousel-control-prev, .multiAwardsSlider .carousel-control-next {
+    color: #ffffff;
+}

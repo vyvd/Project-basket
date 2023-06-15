@@ -1,0 +1,2 @@
+<h4 style="font-family: 'Poppins', sans-serif, cursive;">Why you should study with us</h4>
+<iframe src="<?= $this->getSetting("learningOnlineBenefitVimeo"); ?>" width="100%" height="166" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

@@ -1,0 +1,428 @@
+@media (min-width: 1650px) {
+
+
+}
+/* Only for big screens */
+@media (min-width: 1500px) {
+
+    .popularCourseboxes .category-box img {
+        height: 334px;
+    }
+
+    .pointsEarned{
+        padding:25px 20px 25px 40px;
+    }
+    .points{
+        margin-right: 30px;
+    }
+    .trophy img{
+        margin-left: 6px;
+    }
+    .points h2 {
+        font-size: 30px;
+    }
+
+    .achievements {
+        padding: 20px 35px 30px 35px;
+    }
+    .profile-tabs {
+        padding: 30px 60px;
+    }
+
+    .rewards-inner {
+        padding-left: 20px;
+    }
+
+    .download-o {
+        padding: 25px 15px 0 25px;
+    }
+}
+@media (min-width: 1200px) {
+
+    .inner-nav.navbar-nav {
+        margin-top: 25px;
+    }
+
+    .course-outer, .offer-text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .card-display, .card-content{
+        padding-bottom: 0px;
+    }
+
+    .video-outer{
+        padding-left: 45px !important;
+    }
+
+    .myprogress-modules .name {
+        font-size: 18px;
+    }
+
+}
+/* Only for mobile screens */
+@media (min-width: 992px) {
+    .modal-dialog {
+        max-width: 750px;
+    }
+    .modal-content{
+        padding: 0 40px 40px;
+    }
+    .sidenav{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        padding-right: 0;
+        left: 0;
+        border-width: 0 1px 0 0;
+        overflow-y: scroll;
+    }
+
+
+    /* width */
+    .sidenav::-webkit-scrollbar {
+        width: 0px;
+        opacity: 0;
+    }
+
+    /* Track */
+    .sidenav::-webkit-scrollbar-track {
+        width: 0px;
+        opacity: 0;
+    }
+
+    /* Handle */
+    .sidenav::-webkit-scrollbar-thumb {
+        width: 0px;
+        opacity: 0;
+    }
+
+    /* Handle on hover */
+    .sidenav::-webkit-scrollbar-thumb:hover {
+        width: 0px;
+        opacity: 0;
+    }
+
+    .sidenav-header {
+        margin-bottom: 30px;
+    }
+
+    .sidenav .navbar-brand, .sidenav .navbar-heading {
+        padding: 1.5rem;
+    }
+
+    .sidenav-footer{
+        display: inline-block;
+    }
+
+    main.main {
+        margin-left: 250px;
+    }
+
+    .popularCourseboxes .category-box img {
+        height: 285px;
+    }
+
+    .actions{
+        padding-left: 50px;
+    }
+    .user-menu-collapse{
+        display: block;
+    }
+    body main.main .user-menu-collapse i{
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+    body main.main .user-menu-collapse i.fa-angle-left{
+        display: block;
+    }
+    body main.main .user-menu-collapse i.fa-angle-right{
+        display: none;
+    }
+
+    body.collapse-side-menu main.main .user-menu-collapse i.fa-angle-left{
+        display: none;
+    }
+    body.collapse-side-menu main.main .user-menu-collapse i.fa-angle-right{
+        display: block;
+    }
+    body.collapse-side-menu .sidenav li span.menu-title{
+        display: none;
+    }
+    body.collapse-side-menu .user-menu-collapse{
+        transition: 0.5s;
+        left: 64px;
+    }
+    body.collapse-side-menu .sidenav .navbar-brand{
+        padding: 0 0 0 5px;
+        margin: 0;
+    }
+
+    body.collapse-side-menu .navbar-brand .logo{
+        display: none;
+    }
+    body.collapse-side-menu .navbar-brand .logo.collapse{
+        display: block;
+    }
+
+    body .sidenav {
+        transition: 0.5s;
+        max-width: 250px;
+        padding-left: 15px;
+    }
+    body.collapse-side-menu .sidenav {
+        transition: 0.5s;
+        max-width: 80px;
+        padding-left: 5px;
+    }
+    body.collapse-side-menu main.main {
+        transition: 0.5s;
+        margin-left: 80px;
+    }
+    #quizInfo .modal-dialog,  #quizInfoSave .modal-dialog{
+        margin-top: 200px;
+    }
+
+}
+@media (max-width: 992px) {
+
+    
+    .navbar-collapse {
+        background: #248cab;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        z-index: 1000;
+        padding: 20px 00px 0 30px;
+        left: 0;
+    }
+
+    .dash-details {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+
+}
+@media (min-width: 768px) {
+    .navbar-vertical .navbar-collapse:before {
+        display: block;
+        margin: .5rem;
+        content: '';
+    }
+
+
+    .col-md-6.notification{
+        -ms-flex: 0 0 48%;
+        flex: 0 0 48%;
+        max-width: 48%;
+        margin-right: 4%;
+    }
+
+    .col-md-6.notification:last-child{
+        margin-right: 0;
+    }
+
+    .inner-nav.navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .inner-nav.navbar-nav .nav-item {
+        margin: 0 2px;
+    }
+
+    .find-bg{
+        width: calc(100% - 30px);
+        margin-left: 30px;
+    }
+
+
+    .form-row>.col-md-6:first-child {
+        padding-right: 15px;
+    }
+
+    .form-row>.col-md-6:last-child {
+        padding-left: 15px;
+    }
+
+    .video-outer{
+        padding-left: 25px !important;
+    }
+
+
+}
+@media (max-width: 768px) {
+
+    .row{
+        padding:0 15px;
+    }
+
+    .row .row {
+        padding: 0 0px;
+    }
+
+    .actions {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .actions .input-group {
+        margin-right: 0px;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .achievements .col-12{
+        border-bottom: 1px solid rgb(128 128 128 / 21%);
+        margin-bottom: 25px;
+    }
+
+    .rewards-inner p {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .rewards-inner {
+        text-align: center;
+    }
+
+    .claimed-rewards .col-md-8{
+        margin-bottom: 20px;
+    }
+
+    .card-display, .card-content{
+        width: 100%;
+       -ms-flex: 0 0 100%;
+       flex: 0 0 100%;
+       max-width: 100%;
+    }
+
+}
+@media (min-width: 576px){
+}
+@media (max-width: 590px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dash-details{
+        min-height: 100px;
+    }
+    .dash-details h1{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .page-title.with-nav h1{
+        padding-top: 55px;
+    }
+    .sidenav-header{
+        width: 50%;
+    }
+    .sidenav .navbar-brand{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        text-align: left;
+    }
+    .sidenav .navbar-brand img{
+        max-width: 100px;
+    }
+    .sidenav .top-links li.nav-item{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .nav-item.dropdown a{
+        padding-top: 0px;
+    }
+    .sidenav .top-links .navbar-nav .nav-link{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .sidenav .top-links li.nav-item{
+        width: auto;
+    }
+    .top-links .nav-item a{
+        color: #ffffff;
+    }
+    .certificate_lists table{
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .certificate_lists table td a{
+        width: 95%;
+        margin-bottom: 5px;
+    }
+    .page-content .rewards-inner h3{
+        margin-left: 0px !important;
+    }
+    #faq #accordion .card-header{
+        padding-right: 10px;
+    }
+    .sidenav .nav-item:hover{
+        background: none;
+        color: #ffffff;
+    }
+
+}
+
+.messages .actions {
+    max-width:200px;
+}
+.closeCourseNav {
+    display:none !important;
+}
+@media(max-width:700px) {
+    .closeCourseNav {
+        display:block !important;
+        position: absolute;
+        right: 18px;
+        font-size: 27px;
+        z-index: 999;
+        margin-top: 4px;
+        color: #08586c;
+    }
+    .page-title.with-nav.module-title h1 {
+        padding-top: 0;
+        font-size:30px;
+    }
+    .top-text {
+        color: #248cab;
+        padding: 9px 0;
+        font-size: 13px;
+    }
+    .navbar {
+        padding:0 10px;
+    }
+    .sidenav .top-links .navbar-nav .nav-link.pr-0 {
+        position: relative;
+        top: 3px;
+    }
+    .navbar-collapse {
+        top:60px;
+        padding: 20px 00px 0 0px;
+    }
+    .sidenav .navbar-nav .nav-link {
+        padding: 10px 14px;
+    }
+    .profileName {
+        color:#fff;
+    }
+    .navbar .rounded-circle {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .module-cover h1 {
+        min-height: 0;
+        font-size: 26px;
+    }
+}
